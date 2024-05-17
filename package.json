@@ -41,7 +41,7 @@
 	},
 	"peerDependencies": {
 		"babel-jest": "^27.0.1",
-		"jest": "^27.0.1"
+		"jest": "^29.0.1"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.14.3",
