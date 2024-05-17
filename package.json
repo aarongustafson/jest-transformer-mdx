@@ -1,55 +1,55 @@
 {
-	"name": "jest-transformer-mdx",
-	"version": "3.3.0",
-	"description": "Jest transformer for MDX",
-	"main": "index.js",
-	"scripts": {
-		"test:index": "jest --config jest.config.js",
-		"test:cra": "jest --config jest.config.cra.js",
-		"test:user-settings": "jest --config jest.config.user-settings.js",
-		"test:mdx-options-inline": "NODE_OPTIONS=--experimental-vm-modules npx jest --no-cache --config jest.config.mdx-options.js",
-		"test:mdx-options-file": "NODE_OPTIONS=--experimental-vm-modules npx jest --no-cache --config jest.config.mdx-options-file.js",
-		"test:mdx-options": "npm run test:mdx-options-inline && npm run test:mdx-options-inline",
-		"test": "npm run test:index && npm run test:cra && npm run test:user-settings"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/bitttttten/jest-transformer-md.git"
-	},
-	"keywords": [
-		"jest",
-		"transform",
-		"markdown",
-		"md",
-		"frontmatter"
-	],
-	"author": "bitttttten <bitttttten@googlemail.com>",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/bitttttten/jest-transformer-md/issues"
-	},
-	"homepage": "https://github.com/bitttttten/jest-transformer-md#readme",
-	"dependencies": {
-		"@mdx-js/mdx": "^1.0.21",
-		"@mdx-js/react": "^1.0.21",
-		"babel-jest": "^27.0.1",
-		"babel-preset-react-app": "^9.0.0",
-		"gray-matter": "^4.0.2",
-		"react": "^16.8.6",
-		"rehype-slug": "^4.0.1",
-		"stringify-object": "^3.3.0"
-	},
-	"peerDependencies": {
-		"babel-jest": "^27.0.1",
-		"jest": "^29.0.1"
-	},
-	"devDependencies": {
-		"@babel/core": "^7.14.3",
-		"@babel/preset-env": "^7.6.2",
-		"@testing-library/react": "^8.0.4",
-		"jest": "^29.0.1",
-		"prettier": "^1.18.2",
-		"react-dom": "^16.8.6",
-		"standard-version": "^9.3.0"
-	}
+    "name": "jest-transformer-mdx",
+    "version": "3.3.0",
+    "description": "Jest transformer for MDX",
+    "main": "index.js",
+    "scripts": {
+        "test:index": "jest --config jest.config.js",
+        "test:cra": "jest --config jest.config.cra.js",
+        "test:user-settings": "jest --config jest.config.user-settings.js",
+        "test:mdx-options-inline": "NODE_OPTIONS=--experimental-vm-modules npx jest --no-cache --config jest.config.mdx-options.js",
+        "test:mdx-options-file": "NODE_OPTIONS=--experimental-vm-modules npx jest --no-cache --config jest.config.mdx-options-file.js",
+        "test:mdx-options": "npm run test:mdx-options-inline && npm run test:mdx-options-inline",
+        "test": "npm run test:index && npm run test:cra && npm run test:user-settings"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bitttttten/jest-transformer-md.git"
+    },
+    "keywords": [
+        "jest",
+        "transform",
+        "markdown",
+        "md",
+        "frontmatter"
+    ],
+    "author": "bitttttten <bitttttten@googlemail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/bitttttten/jest-transformer-md/issues"
+    },
+    "homepage": "https://github.com/bitttttten/jest-transformer-md#readme",
+    "dependencies": {
+        "@mdx-js/mdx": "^3.0.1",
+        "@mdx-js/react": "^3.0.1",
+        "babel-jest": "^29.7.0",
+        "babel-preset-react-app": "^10.0.1",
+        "gray-matter": "^4.0.3",
+        "react": "^18.3.1",
+        "rehype-slug": "^6.0.0",
+        "stringify-object": "^5.0.0"
+    },
+    "peerDependencies": {
+        "babel-jest": "^29.7.0",
+        "jest": "^29.7.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.24.5",
+        "@babel/preset-env": "^7.24.5",
+        "@testing-library/react": "^15.0.7",
+        "jest": "^29.7.0",
+        "prettier": "^3.2.5",
+        "react-dom": "^18.3.1",
+        "standard-version": "^9.5.0"
+    }
 }
